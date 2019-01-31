@@ -10,7 +10,7 @@ if __name__ == '__main__':
     print(radar_topic)
 
     root = tk.Tk()
-    img_window = br24_image_window(root, refresh_period=500)
+    img_window = br24_image_window(root, refresh_period=t60)
     brsub = rospy.Subscriber(radar_topic,
                              Scanline,
                              img_window.draw_scanline_ros,
