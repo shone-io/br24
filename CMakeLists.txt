@@ -114,7 +114,7 @@ install(PROGRAMS
   src/pyOpenBR24/br24_ui.py
   src/pyOpenBR24/replay_pcap.py
   src/pyOpenBR24/test_br24.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}/pyOpenBR24
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 ## Mark executables and/or libraries for installation

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from pyOpenBR24.br24_driver import br24
+from br24_driver import br24
 import rospy
 import time
 import zlib
