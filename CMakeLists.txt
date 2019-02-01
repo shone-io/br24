@@ -109,6 +109,14 @@ install(PROGRAMS
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
+install(PROGRAMS
+  src/pyOpenBR24/br24_driver.py
+  src/pyOpenBR24/br24_ui.py
+  src/pyOpenBR24/replay_pcap.py
+  src/pyOpenBR24/test_br24.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}/pyOpenBR24
+)
+
 ## Mark executables and/or libraries for installation
 # install(TARGETS br24
 #     ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
